@@ -1,0 +1,53 @@
+
+h1 {
+	text-align: center;
+	font-size: 40px;
+	font-family: 'Cormorant SC', serif;
+}
+
+h2 {
+	font-family: 'Cormorant SC', serif;
+}
+
+img {
+	width: 30%;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+	-webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+	box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+p {
+	margin-left: 1.8rem;
+	font-size: 1.2em;
+}
+
+
+#form {
+	-webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+	box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+	border-radius: 10px;
+	margin-left: 1rem;
+	margin-right: 1rem;
+	padding-bottom: 20px;
+}
+
+label {
+	font-weight: 300px;
+}
+
+#submit {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	border-radius: 10px;
+	padding: 0.75rem;
+	color: green;
+	width: 45%;
+	cursor: pointer;
+	font-size: 20px;
+}

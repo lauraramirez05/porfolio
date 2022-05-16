@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Dog Adoption Application</title>
+</head>
+<body>
+
+	<section class="header">
+		<h1 id="title">Dog Adoption Form</h1>
+		<img src="img/dog.jpg" alt="dog looking up to the camera">
+		<p id="description">Please give careful consideration to adopting. Be sure your lifestyle allows the time, patience and expenses this pet will need. Adopting a dog is a big responsability</p>
+
+	</section>	
+
+	<section id="form">
+	
+		<form id="survey-form">
+			<div class="applicant-info">
+				<fieldset>
+					<legend><h2>Applicant Information</h2></legend>
+
+					<label for="name" id="name-label">Name</label><br>
+					<input type="name" type="text" name="name" placeholder="Jane Doe" required></input>
+					<br>
+
+					<label for="email" id="email-label">Email</label><br>
+					<input id="email" type="email" name="email" placeholder="email@address.com" required></input><br>
+
+					<label for="number" id="number-label">Age</label><br>
+					<input id="number" type="number" name="number" placeholder="21" min="21" max="100" required></input><br>
+
+					<label for="phone" id="phone-label">Age</label><br>
+					<input id="phone" type="tel" name="phone" placeholder="e.g.555-555-5555" required></input><br>
+				</fieldset>
+			</div>
+
+			<div class="canine-info">
+				<fieldset>
+					<legend><h2>Canine Informations</h2></legend>
+
+					<label for="reason" id="reason-label">Why do you want to adopt a dog? </label><br>
+						<br>
+						<input id="reason-label" type="radio" id="family-pet" name="reason" value="family-pet">
+							<label for="reason-label">Family pet</label>
+						</input>
+
+						<input id="reason-label" type="radio" id="companion" name="reason" value="companion">
+							<label for="reason-label">Companion</label>
+						</input>
+
+						<input id="reason-label" type="radio" id="protection" name="reason" value="protection">
+							<label for="reason-label">Protection</label>
+						</input>
+
+						<input id="reason-label" type="radio" id="gift" name="reason" value="gift">
+							<label for="reason-label">Gift</label>
+						</input>
+
+						<input id="reason-label" type="radio" id="other" name="reason" value="other">
+							<label for="reason-label">Other</label>
+						</input>
+						<br>
+						<hr>
+
+
+					<label for="dog-age">Age:</label><br>
+						<br>
+						<input id="checkbox" type="checkbox" name="dog-age" value="2-6m">
+							<label for="checkbox">2-6 months</label>
+
+						<input id="checkbox" type="checkbox" name="dog-age" value="6-12m">
+							<label for="checkbox">6-12 months</label>
+
+						<input id="checkbox" type="checkbox" name="dog-age" value="1-6yr">
+							<label for="checkbox">1-6 years</label>
+
+						<input id="checkbox" type="checkbox" name="dog-age" value="7+yr">
+							<label for="checkbox">7+ years</label>
+							<br>
+							<hr>
+
+					<label for="sex" id="sex-label">Sex</label><br>
+						<br>
+						<input id="sex-label" type="radio" id="female" name="sex" value="female">
+							<label for="sex-label">Female</label>
+						</input>
+
+						<input id="sex-label" type="radio" id="companion" name="sex" value="Male">
+							<label for="sex-label">Male</label>
+						</input>
+
+						<input id="sex-label" type="radio" id="protection" name="sex" value="no-preference">
+							<label for="sex-label">No preference</label>
+						</input>
+						<br>
+						<hr>
+
+
+					<label for="dog-coat">Coat:</label><br>
+						<br>
+						<input id="checkbox" type="checkbox" name="dog-coat" value="short">
+							<label for="checkbox">Short</label>
+
+						<input id="checkbox" type="checkbox" name="dog-coat" value="medium">
+							<label for="checkbox">Medium</label>
+
+						<input id="checkbox" type="checkbox" name="dog-coat" value="long">
+							<label for="checkbox">Long</label>
+
+						<input id="checkbox" type="checkbox" name="dog-coat" value="no-preference">
+							<label for="checkbox">No Preference</label>
+							<br>
+							<hr>
+
+					<label for="color">Color preference</label><br>
+					<br>
+						<input type="text" name="color">
+							<br>
+							<hr>
+
+
+					<label for="dog-personality">Personality:</label><br>
+						<br>
+						<input id="checkbox" type="checkbox" name="dog-personality" value="playful">
+							<label for="checkbox">Playful</label>
+
+						<input id="checkbox" type="checkbox" name="dog-personality" value="Calm">
+							<label for="checkbox">Calm</label>
+
+						<input id="checkbox" type="checkbox" name="dog-personality" value="Shy">
+							<label for="checkbox">Shy</label>
+
+						<input id="checkbox" type="checkbox" name="dog-personality" value="Affectionate">
+							<label for="checkbox">Affectionate</label>
+
+						<input id="checkbox" type="checkbox" name="dog-personality" value="likes-dogs">
+							<label for="checkbox">Likes other dogs</label>
+
+						<input id="checkbox" type="checkbox" name="dog-personality" value="likes-cats">
+							<label for="checkbox">Likes cats</label>
+
+						<input id="checkbox" type="checkbox" name="dog-personality" value="likes-kids">
+							<label for="checkbox">Likes kids</label>
+
+							<br>
+							<hr>
+
+					<label id="textarea">Additional Comments </label>
+					<br>
+					<textarea id="textarea" name="instructions rows="5" cols="40">
+					
+					</textarea>
+
+				</fieldset>
+				<br>
+			</div>
+
+		<input id="submit" type="submit" value="Send Application">
+
+		</form>
+	</section>
+</body>
+</html>
